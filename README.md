@@ -13,7 +13,7 @@ This code written for Internship.
    
    
 # Instructions to compile and run
-We have used preview features so, use the following command for compilation and execution.
+I have used preview features so, use the following command for compilation and execution.
 
 ```javac --release 13 --enable-preview Database2.java```
 
