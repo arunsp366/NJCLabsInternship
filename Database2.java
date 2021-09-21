@@ -8,7 +8,7 @@ JDBC Connection steps:
     5.Get result
 */
 
-import java.sql.*;
+import java.sql.*;//import all the classes available in java.sql.* package
 
 class Database2
 {
@@ -19,7 +19,7 @@ public static void main(String[] args) throws Exception
 2.Creating a new SQLite database
 *************************************************************************************/
 
-Class.forName("org.sqlite.JDBC");
+Class.forName("org.sqlite.JDBC"); 
 
 //Establish Connection and create database if not exists.
 Connection con=DriverManager.getConnection("jdbc:sqlite:C://sqlite//movies.db");
