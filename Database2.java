@@ -12,7 +12,7 @@ import java.sql.*;//import all the classes available in java.sql.* package
 
 class Database2
 {
-public static void main(String[] args) throws Exception
+public static void main(String[] args) throws Exception//class not found exception from driver.
 {
 /***********************************************************************************
 1.Connect to the SQLite database
@@ -58,7 +58,7 @@ INSERT INTO movies (Name, Actor, Actress, Director, YearofRelease) VALUES ('Goog
  retrives whole table data
 *************************************************************************************/
 
-ResultSet rs=stm.executeQuery("select distinct * from movies");
+ResultSet rs=stm.executeQuery("select distinct * from movies");//complete table will be available in the resultset
 
 int YOR;
 String Actr;
